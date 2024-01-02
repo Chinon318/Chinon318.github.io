@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Gilberto Jair</title>
+    <style>
+        :root
+        {
+            --very-Light-pink: #C7C7C7;
+            --text-input-field: #F7F7F7;
+            --hospital-green: #ACD9B2;
+            --white: #FFFFFF;
+            --black: #000000;
+            --sm: 14px;
+            --md: 16px;
+            --lg: 18px;
+        }
+        body
+        {
+            margin: 0;
+            padding: 0;
+            font-family: 'Quicksand', sans-serif;
+            background: linear-gradient(to right, #3498db, #2ecc71);
+            color: #000; /* Cambiado a negro para mejorar la visibilidad del texto */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            min-height: 1165vh; /*Para subirlo a github el valor cambia a 680*/
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            max-width: 600px;
+            width: 100%;
+            text-align:center;
+            min-height: 900px;
+          }
+        .nombre
+        {
+            font-size: 30px;
+            margin-bottom: 4px;
+            font-weight: bold;
+        }
+        .container img
+        {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-top: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            
+        }
+        .github
+        {
+            max-width: 30px !important;
+            
+            
+        }
+        .linked
+        {
+            max-width: 30px !important;
+        }
+       
+        .github,.linked
+        {
+            margin-right: 20px;
+        }
+        .subtitle
+        {
+            font-size: 25px;
+        }
+        .sobre-mi,.conoci p
+        {
+            text-align: justify;
+        }
+        .circles
+        {
+            font-size: 24px;
+            color:  #40e0d0;
+        }
+        .sub
+        {
+            font-size: 18px;
+            
+        }
+        .contenedor-imag
+        {
+            display: flex;
+            flex-wrap: wrap; /* Permite que las imágenes se envuelvan a la siguiente línea si no caben en el ancho del contenedor */
+            gap: 10px; /* Espacio entre las imágenes */
+        }
+        .columna
+        {
+            flex: 0 0 calc(50% - 10px);
+        }
+        .contenedor-imag img
+        {
+            width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
+            height: auto; /* Permite que la altura se ajuste automáticamente para mantener la proporción */
+            max-width: 100%; /* Ancho máximo de cada imagen */
+        }
+        .img-lenguajes img,.img-motores img
+        {
+            align-items: center;
+            width: 45px;
+            height: auto;
+            margin-right: 45px;
+        }
+        .projects-container img
+        {
+            margin-bottom: 20px;
+        }
+
+        .projects-container a
+        {
+            text-decoration: none;
+        }
+        .info-per p
+        {
+            text-align: justify;
+        }
+        .webdev a
+        {
+            text-decoration: none;
+        }
+        .webdev
+        {
+            margin-top: 50px;
+            
+        }
+        .webdev img
+        {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        hr
+        {
+            height: 3px;
+            border: none;
+            background-color: powderblue;
+            
+        }
+        .bajo
+        {
+            margin-top: 20px
+        }
+        .bajos
+        {
+            margin-top: 50px;
+        }
+       
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img class="yo-img" src="https://i.ibb.co/CvmkFD3/yo.jpg" alt="yo">
+        <h1 class="nombre">Gilberto Jair</h1>
+        <div class="social">
+            <a href="https://github.com/Chinon318">
+                <img class="github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="github">
+            </a>
+            <a href="https://www.linkedin.com/in/gilberto-jair-becerra-camberos-6b071a231/">
+                <img class="linked" src="https://static-00.iconduck.com/assets.00/linkedin-icon-2048x2048-ya5g47j2.png" alt="LinkedinLogo">
+            </a>
+        </div>
+
+        <div class="sobre-mi">
+            <h2 class="subtitle">Sobre mí</h2>
+            <p>
+                Soy estudiante en el Instituto Tecnologico Superior de San Lusi Potosi,
+                Actualmente estoy estudiando el cuarto semestre de la carrera de Ingeniería en Sistemas Computacionales.
+                Soy una persona autodidacta,proactiva, se trabajar en equipo y me gusta aprender cosas nuevas.
+                Tengo varias certificaciones que he conseguido en la plataforma de educacion en linea Platzi.
+            </p>
+        </div>
+
+        <div class="conoci">
+            <h2 class="subtitle">Conocimientos y habilidades</h2>
+            <p>
+                He realizado proyectos personales en el motor grafico de Unity programando en C#, 
+                tengo conocimiento usando HTML, CSS, C++ y Python en actividades propias de los cursos que he tomado.
+                <br>
+                <br>
+                En mi universidad con C++ desarrolle un programa de inventario para una tienda de ropa, el programa nos permitia
+                agregar, quitar productos, modificar el precio de los productas y visualizar el inventario.
+                <br>
+                <br>
+                Actualmente estoy participando en un taller de FullStack en mi universidad, en donde estoy aprendiendo FrontEnd,
+                BackEnd y bases de datos.
+                <br>
+                <br>
+                Respecto a Unity he llevado a cabo proyectos propios de videojuegos en 3D y 2D donde he implementado tanto la 
+                programacion, asi como mecanicas de mi propio videojuego como animaciones, fisicas y eventos. He desarrollado 
+                juegos para dispositivos moviles y ordenadores.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="idiomas">
+            <h2 class="Subtitle">Idiomas</h2>
+            <div class="language">
+                <h3 class="sub">Español (Nativo)</h3>
+                <div class="circles">●●●●●●●</div>
+              </div>
+              <div class="lenguage">
+                <h3 class="sub">Ingles (B1)</h3>
+                <div class="circles">●●●●○○○</div>
+        </div>
+        <hr>
+        <div class="info-per">
+            <h2>Informacion Personal</h2>
+            <p><b>Nombre: </b>Gilberto Jair</p>
+            <p><b>Ciudad: </b>San Luis Potosi, San Luis Potosi, México</p>
+            <p><b>Correo: </b>giljair318@gmail.com</p>
+        </div>
+        <div class="certificacion">
+            <div class="cert-container">
+                <hr>
+                <h2 class="subtitle"> Certificaciones</h2>
+
+                <div class="contenedor-imag">
+                    <div class="columna">
+                        <img src="https://i.ibb.co/Qjmj1jf/Captura-de-pantalla-2023-12-28-133403.png" alt="">
+                        <img src="https://i.ibb.co/mD5Rtkr/Cparavideojuegos.png" alt="">
+                    </div>
+                    <div class="columna">
+                        <img src="https://i.ibb.co/wSxJ18R/creacion-videojuegos.png" alt="">
+                        <img src="https://i.ibb.co/1ZzKFRD/Desarrollo-Movil.png" alt="">
+                    </div>
+                    <div class="columna">
+                        <img src="https://i.ibb.co/RTqYCmy/3DUnity.png" alt="">
+                        <img src="https://i.ibb.co/Hrfqhrr/Front.png" alt="">
+                    </div>
+                    <div class="columna">
+                        <img src="https://i.ibb.co/71PY0FQ/2-Dintermedio.png" alt="">
+                        <img src="https://i.ibb.co/VvzLmHD/UIInterfaz.png" alt="">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <hr class="bajo">
+        <div class="lenguajes">
+            <h2 class="subtitle">Lenguajes de Programacion</h2>
+            <div class="img-lenguajes">
+                <img src="https://iconape.com/wp-content/files/sh/51404/svg/c--4.svg" alt="">
+                <img src="https://brandslogos.com/wp-content/uploads/images/large/java-logo-1.png" alt="">
+
+            </div>
+        </div>
+
+        <div class="motores">
+            <h2 class="subtitle">Motores Graficos</h2>
+            <div class="img-motores">
+                <img src="https://assets.stickpng.com/images/62e131df7fe3599fdd46ecb3.png" alt="">
+                <img src="https://cdn.worldvectorlogo.com/logos/unreal-1.svg" alt="">
+            </div>
+        </div>
+        <hr class="bajo">
+        <div class="projects">
+            <h2 class="subtitle">Proyectos</h2>
+
+            <div class="projects-container">
+                <h3 class="pro">Proyectos en 3D</h3>
+                <a href="https://github.com/Chinon318/3D-Videogame">
+                    <h3>Videojuego 3D</h3>
+                </a>
+                <img src="https://i.ibb.co/W6SddVg/Juego3D.png" alt="">
+                <img src="https://i.ibb.co/bF5jLB8/menu.png" alt="">
+                <img src="https://i.ibb.co/NpwFRZn/enemigos.png" alt="">
+
+                <a href="https://github.com/Chinon318/Bolineitor">
+                    <h3>Bolineitor</h3>
+                </a>
+                <img src="https://i.ibb.co/TgTznwH/Bolineitor-Menu.png" alt="">
+                <img src="https://i.ibb.co/NrG8gn7/Bolineitor-Juego.png" alt="">
+                <img src="https://i.ibb.co/CsLWQNC/Bolineitor-Nivel1.png" alt="">
+                <img src="https://i.ibb.co/K6ZNP2V/Bolineitor-Nivel2.png" alt="">
+            </div>
+
+            <div class="twod-projects">
+                <h3>Proyectos en 2D</h3>
+                <a href="https://github.com/Chinon318/ProjectSafari">
+                    <h3>ProjectSafari</h3>
+                </a>
+                <img src="https://i.ibb.co/8KDLWNS/Project-Safari.png" alt="">
+                <h3>KimaProject</h3>
+                <p>Actualmente estoy trabajando en este proyecto</p>
+                <img src="https://i.ibb.co/WGvqGMR/Kima-Project.png" alt="">
+            </div>
+        </div>
+        <hr class="bajos">
+        <div class="webdev">
+            <h2>Desarrollo web</h2>
+            <a href="https://github.com/Chinon318/Tienda-web-PC">
+                <h3>Tienda Web</h3>
+            </a>
+            <img src="https://i.ibb.co/JqJzFPz/pag-Inicio.png" alt="">
+            <img src="https://i.ibb.co/sytBxvv/Micuenta.png" alt="">
+            <img src="https://i.ibb.co/LQN5x3h/Myaccount.png" alt="">
+            <img src="https://i.ibb.co/njFBbfQ/Menude-Inicio.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
